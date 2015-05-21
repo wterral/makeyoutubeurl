@@ -7,8 +7,7 @@
 
 function onOpen() {
   DocumentApp.getUi().createAddonMenu()
-                     .addItem('Get document link', 'showDocDialog')
-                     .addItem('Shorten selected URL', 'showSelectedDialog')
-                     .addItem('Shorten and replace selected URL', 'shortenAndReplace')
+                     .addItem('Open Make YouTube URL Wizard', 'showVidDialog')
+                     .addItem('About', 'showAbout')
                      .addToUi();
 }
